@@ -48,7 +48,7 @@
     "@babel/cli": "^7.11.5",
     "@opd/babel-preset-component": "^1.10.0",
     "@opd/babel-preset-lib": "^1.8.7",
-    "@opd/eslint-config-pangu": "^1.10.0",
+    "@opd/eslint-config-pangu": "^1.12.0",
     "@opd/jest-preset-pangu": "^1.10.0",
     "@opd/prettier-config-pangu": "^1.8.7",
     "@opd/stylelint-config-pangu": "^1.10.0",
