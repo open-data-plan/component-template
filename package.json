@@ -52,7 +52,7 @@
     "@opd/jest-preset-pangu": "^1.10.0",
     "@opd/prettier-config-pangu": "^1.8.7",
     "@opd/stylelint-config-pangu": "^1.10.0",
-    "@types/react-dom": "^16.9.8",
+    "@types/react-dom": "^17.0.0",
     "cross-env": "^7.0.2",
     "dumi": "^1.0.34",
     "husky": "^4.2.5",
