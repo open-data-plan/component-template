@@ -37,11 +37,12 @@
     "lint:fix": "eslint . --ext=.ts,.tsx --fix",
     "test": "jest",
     "prebuild": "npm test",
-    "build": "npm run build:es & npm run build:commonjs & npm run build:style & npm run build:types",
+    "build": "npm run build:es & npm run build:commonjs & npm run build:style",
+    "postbuild": "npm run build:type",
     "build:es": "babel src -d es --extensions .ts,.tsx --delete-dir-on-start",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d lib --extensions .ts,.tsx --delete-dir-on-start",
     "build:style": "lessc style/index.less style/index.css",
-    "build:types": "tsc",
+    "build:types": "tsc --declarationDir es & tsc --declarationDir lib",
     "preversion": "npm run build"
   },
   "devDependencies": {
