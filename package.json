@@ -43,6 +43,7 @@
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d lib --extensions .ts,.tsx --delete-dir-on-start",
     "build:style": "lessc style/index.less style/index.css",
     "build:types": "tsc --declarationDir es & tsc --declarationDir lib",
+    "build:docs": "dumi build",
     "preversion": "npm run build"
   },
   "devDependencies": {
@@ -55,7 +56,8 @@
     "@opd/stylelint-config-pangu": "^1.10.0",
     "@types/react-dom": "^17.0.0",
     "cross-env": "^7.0.2",
-    "dumi": "^1.0.34",
+    "dumi": "^1.1.0-rc.3",
+    "dumi-theme-default": "^1.0.0-rc.2",
     "husky": "^4.2.5",
     "lessc": "^1.0.2",
     "lint-staged": "^10.2.13",

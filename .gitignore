@@ -63,3 +63,4 @@ es
 *.css
 **/.umi
 *.d.ts
+dist
