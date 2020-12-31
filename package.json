@@ -56,7 +56,7 @@
     "@opd/stylelint-config-pangu": "^1.10.0",
     "@types/react-dom": "^17.0.0",
     "cross-env": "^7.0.3",
-    "dumi": "^1.1.0-rc.8",
+    "dumi": "^1.1.0",
     "dumi-theme-default": "^1.0.0-rc.4",
     "husky": "^4.3.6",
     "lessc": "^1.0.2",
