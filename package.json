@@ -47,7 +47,7 @@
     "preversion": "npm run build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
+    "@babel/cli": "^7.12.13",
     "@opd/babel-preset-component": "^1.13.4",
     "@opd/babel-preset-lib": "^1.13.4",
     "@opd/eslint-config-pangu": "^1.13.4",
