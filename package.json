@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.12.13",
-    "@opd/babel-preset-component": "^1.13.4",
+    "@opd/babel-preset-component": "^1.13.5",
     "@opd/babel-preset-lib": "^1.13.5",
     "@opd/eslint-config-pangu": "^1.13.5",
     "@opd/jest-preset-pangu": "^1.13.5",
