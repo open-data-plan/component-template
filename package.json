@@ -52,7 +52,7 @@
     "@opd/babel-preset-lib": "^1.13.5",
     "@opd/eslint-config-pangu": "^1.13.7",
     "@opd/jest-preset-pangu": "^1.13.5",
-    "@opd/prettier-config-pangu": "^1.13.5",
+    "@opd/prettier-config-pangu": "^1.13.6",
     "@opd/stylelint-config-pangu": "^1.13.5",
     "@types/react-dom": "^17.0.8",
     "cross-env": "^7.0.3",
