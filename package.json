@@ -54,7 +54,7 @@
     "@opd/jest-preset-pangu": "^1.13.8",
     "@opd/prettier-config-pangu": "^1.13.6",
     "@opd/stylelint-config-pangu": "^1.13.6",
-    "@types/react-dom": "^17.0.10",
+    "@types/react-dom": "^17.0.11",
     "cross-env": "^7.0.3",
     "dumi": "^1.1.31",
     "dumi-theme-default": "^1.1.13",
