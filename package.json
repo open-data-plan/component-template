@@ -84,6 +84,6 @@
     ]
   },
   "dependencies": {
-    "@types/react": "^18.0.2"
+    "@types/react": "^18.0.5"
   }
 }
